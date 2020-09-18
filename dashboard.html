@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ini adalah website freelancer">
+  <meta name="author" content="Muhammad Yota Nehru Onodera">
+  <meta name="keywords" content="freelance, digital, project, proyek, web, mobile, joki web">
+  <title>DigitalProject - Freelancer Website</title>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dashboard">
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light stick-nav" id="sticky-nav">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="img/logo digital.png" alt="logo digital">
+      </a>
+
+      <button class="navbar-toggler" data-target="#navbarlist" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarlist">
+
+        <ul class="navbar-nav mt-2">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#get-started" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://dribble.com" class="nav-link">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <form action="login.html" class="form-inline ml-auto d-sm-block d-md-block">
+          <button type="submit" class="btn btn-logout btn-navbar-right px-4 my-2 my-sm-0">Log Out</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+
+  <section class="section-service">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center description">
+          <h2>OUR SERVICE</h2>
+          <p>We Provide this service</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-8 col-lg-3 col-md-8 col-sm-5 text-center web-design1">
+          <h3>Web <br> Mobile <br> Design</h3>
+          <p>Basic</p>
+          <button type="button" class="btn px-5 btn-get-service get-service design" data-toggle="modal"
+            data-target="#serviceDetailsModal" data-id="design_basic">See Detail</button>
+        </div>
+        <div class="col-8 col-lg-3 col-sm-5 col-md-8 text-center web-design1">
+          <h3>Web <br> Mobile <br> Design</h3>
+          <p>Normal</p>
+          <button type="button" class="btn px-5 btn-get-service get-service design" data-toggle="modal"
+            data-target="#serviceDetailsModal" data-id="design_normal">See Detail</button>
+        </div>
+        <div class="col-8 col-lg-3 col-sm-5 col-md-8 text-center web-design1">
+          <h3>Web <br> Mobile <br> Design</h3>
+          <p>Premium</p>
+          <button type="button" class="btn px-5 btn-get-service get-service design" data-toggle="modal"
+            data-target="#serviceDetailsModal" data-id="design_premium">See Detail</button>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-8 col-lg-3 col-md-8 col-sm-5 text-center web-design1">
+          <h3>Mobile<br> App <br> Developer</h3>
+          <p>Basic</p>
+          <button type="button" class="btn px-5 btn-get-service get-service mobile" data-toggle="modal"
+            data-target="#serviceDetailsModal" data-id="mobile_basic">See Detail</button>
+        </div>
+        <div class="col-8 col-lg-3 col-sm-5 col-md-8 text-center web-design1">
+          <h3>Mobile<br> App <br> Developer</h3>
+          <p>Normal</p>
+          <button type="button" class="btn px-5 btn-get-service get-service mobile" data-toggle="modal"
+            data-target="#serviceDetailsModal" data-id="mobile_normal">See Detail</button>
+        </div>
+        <div class="col-8 col-lg-3 col-sm-5 col-md-8 text-center web-design1">
+          <h3>Mobile<br> App <br> Developer</h3>
+          <p>Premium</p>
+          <button type="button" class="btn px-5 btn-get-service get-service mobile" data-toggle="modal"
+            data-target="#serviceDetailsModal" data-id="mobile_premium">See Detail</button>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-8 col-lg-3 col-md-8 col-sm-5 text-center web-design1">
+          <h3>Website <br> App <br> Developer</h3>
+          <p>Basic</p>
+          <button type="button" class="btn px-5 btn-get-service get-service website" data-toggle="modal"
+            data-target="#serviceDetailsModal" data-id="website_basic">See Detail</button>
+        </div>
+        <div class="col-8 col-lg-3 col-sm-5 col-md-8 text-center web-design1">
+          <h3>Website <br> App <br> Developer</h3>
+          <p>Normal</p>
+          <button type="button" class="btn px-5 btn-get-service get-service website" data-toggle="modal"
+            data-target="#serviceDetailsModal" data-id="website_normal">See Detail</button>
+        </div>
+        <div class="col-8 col-lg-3 col-sm-5 col-md-8 text-center web-design1">
+          <h3>Website <br> App <br> Developer</h3>
+          <p>Premium</p>
+          <button type="button" class="btn px-5 btn-get-service get-service website" data-toggle="modal"
+            data-target="#serviceDetailsModal" data-id="website_premium">See Detail</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="transaction">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 mt-5 sembunyi">
+          <div class="row">
+
+            <div class="col panel1">
+              <div class="title1">
+                <p class="status">. New</p>
+                <p class="tanggal"></p>
+              </div>
+              <div class="title1">
+                <p class="detail">Service :</p>
+                <p class="detail pService">Empty</p>
+              </div>
+              <div class="title1">
+                <p class="detail">Package :</p>
+                <p class="detail pPackage">Empty</p>
+              </div>
+              <div class="title1">
+                <p class="detail">Work Duration :</p>
+                <p class="detail pDay">Empty</p>
+              </div>
+              <div class="title1">
+                <p class="detail">Unique Code :</p>
+                <p class="detail pCode"></p>
+              </div>
+              <div class="title1">
+                <p class="detail">Price :</p>
+                <p class="detail pPrice">Empty</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8 col-sm-12 mt-5">
+          <form style="margin-top: 20px;">
+            <h3 class="text-black mb-3">Form Transaction</h3>
+            <div class="form-row">
+              <div class="form-group col-md-6 d-none">
+                <input type="text" class="form-control" readonly id="idOrder" placeholder="id" required="required">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputProject" class="text-black font-weight-bold">Name of Project</label>
+                <input maxlength="15" type="text" class="form-control viga" id="inputProject" placeholder="Project"
+                  required="required">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputService" class="text-black font-weight-bold">Service</label>
+                <select class="form-control opsi" id="inputService">
+                  <option selected disabled value="">Services</option>
+                  <option value="Web/Mobile Design">Web/Mobile Design</option>
+                  <option value="Mobile App Developer">Mobile App Developer</option>
+                  <option value="Website App Developer">Website App Developer</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputName" class="text-black font-weight-bold">Name</label>
+                <input maxlength="19" type="text" class="form-control viga" id="inputName"
+                  placeholder="Name (19 character)" required="required">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPhone" class="text-black font-weight-bold">Phone Number</label>
+                <input type="tel" maxlength="12" class="form-control viga" id="inputPhone" placeholder="+62***"
+                  required="required">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4" class="text-black font-weight-bold">Email</label>
+                <input type="email" class="form-control viga" id="inputEmail4" placeholder="Email" required="required">
+              </div>
+
+              <div class="form-group col-md-6">
+                <label for="inputPackage" class="text-black font-weight-bold">Package</label>
+                <select class="form-control viga opsi" id="inputPackage">
+                  <option selected disabled value="">Package</option>
+                  <option value="basic">Basic</option>
+                  <option value="normal">Normal</option>
+                  <option value="premium">Premium</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6 d-none">
+                <input readonly maxlength="15" type="text" class="form-control font-weight-normal" id="inputDurasi"
+                  placeholder="Duration" value="" required="required">
+              </div>
+              <div class="form-group col-md-6 d-none">
+                <input readonly maxlength="15" type="text" class="form-control font-weight-normal"
+                  id="inputTanggalMulai" placeholder="Tanggal Mulai" value="" required="required">
+              </div>
+            </div>
+            <div class="booking-now">
+              <a href="https://wa.widget.web.id/e1dcd3" target="_blank"><button style="margin-bottom: 40px;"
+                  type="button" class="btn btn-success ulti">Booking Now</button></a>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="serviceDetailsModal" tabindex="-1" role="dialog" aria-labelledby="movieDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title" id="movieDetailsModalLabel">Service Description</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer class="section-footer mb-4 border-top" id="contact">
+    <div class="container pt-5 pb-4">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 col-lg-3">
+              <h5>FEATURES</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>ACCOUNT</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Instagram: @digital_Project</a></li>
+                <li><a href="#">dribble: digitalproject</a></li>
+                <li><a href="#">twitter: @digi_proj</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>COMPANY</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Media</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>GET CONNECTED</h5>
+              <ul class="list-unstyled">
+                <li>Jakarta Selatan</li>
+                <li>Indonesia</li>
+                <li>0821 - 2222 - 8888</li>
+                <li>support@digitalproject.id</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <p>
+          <span id="tahun"></span> Copyright Digital Project • All rights reserved • Made in Jakarta
+          <script>
+            var tahun = new Date();
+            var tampung = tahun.getFullYear();
+            var el = document.getElementById('tahun');
+            el.innerHTML = tampung;
+          </script>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
